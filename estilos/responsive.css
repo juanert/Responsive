@@ -1,0 +1,53 @@
+.fila {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 5px;
+    gap: 15px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fila{
+        background-color: blue;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fila{
+        background-color: orange;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fila{
+        flex-direction: row;
+        background-color: brown;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .fila{
+        background-color: red;
+        font-size: 40px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .fila{
+        background-color: purple;
+    }
+}
